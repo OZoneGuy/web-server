@@ -1,0 +1,5 @@
+#+title: Personal Website
+#+author: Omar Alkersh
+#+options: toc:nil
+
+This repo contains the file of my personal website. This readme will be expanded as the website is expanded.
