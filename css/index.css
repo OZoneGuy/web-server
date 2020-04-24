@@ -78,9 +78,15 @@ a:hover {
     font-weight: 700;
 }
 
+body > div {
+    scroll-snap-align: start;
+}
+
 #big-text {
     width: 100%;
-    height: 65%;
+    height: 100vh;
+
+    box-sizing: border-box;
 
     background: rgb(61,103,255);
     background: -moz-radial-gradient(circle, rgba(61,103,255,1) 0%, rgba(0,0,0,0.5) 100%);
@@ -90,11 +96,43 @@ a:hover {
 
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    padding-top: 16vh;
+
 }
 
 #projects-section {
+    height: 40vh;
+    width: 100%;
+
+    box-sizing: border-box;
+
     background: #00A3FF40;
     box-shadow: 0px -4px 4px #00000040;
-    height: 35%;
+
+    padding: 2em;
+
+    position: absolute;
+    top: 60vh;
+
+}
+
+#projects-container {
+    max-width: inherit;
+    max-height: 30vh;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+    justify-content: space-evenly;
+    grid-column-gap: 50px;
+}
+
+/* TODO add max-width or a static width*/
+#project {
+    /* width: 18vw; */
 }
