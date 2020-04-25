@@ -36,13 +36,13 @@
         </div>
         <div id="content-section">
                 <ul class="nav">
-                    <li id="Home">Home</li>
-                    <li id="Documentation">Documentation</li>
-                    <li class="active" id="About">About</li>
-                    <li id="Contact">Contact</li>
+                    <li id="Home" onclick="location.href = '#big-text'">Home</li>
+                    <li id="Documentation" onclick="showSection('Documentation')">Documentation</li>
+                    <li class="active" onclick="showSection('About')" id="About">About</li>
+                    <li id="Contact" onclick="showSection('Contact')">Contact</li>
                 </ul>
                 <hr style="width:75%;margin-top:0">
-                <div id="About">
+                <div id="AboutDiv" class="active">
                     <img src="img/prof-generic.png" alt="profile-img"/>
                     <div><h2>Omar Alkersh</h2>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
