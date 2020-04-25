@@ -182,7 +182,37 @@ body > div {
     transition: background-color 0.2s, box-shadow 0.5s;
 }
 
-.active {
+li.active {
     background-color: #f5f5f5;
     z-index: 0;
+}
+
+div#About {
+    width: 80%;
+
+    display: grid;
+    grid-template-columns: 18% 38% 38%;
+    justify-content: space-evenly;
+
+    box-sizing: border-box;
+
+    padding: 2em;
+    margin: 0 10%;
+
+    flex-grow: 1;
+}
+
+div#About > img {
+    border-radius: 50%;
+
+    width: 70%;
+
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+}
+
+div#About li {
+    font-family: Roboto;
 }
