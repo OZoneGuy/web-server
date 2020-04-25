@@ -6,6 +6,8 @@ html, body {
     padding: 0;
     scroll-snap-type: y mandatory;
     background: #3D67FF;
+
+    scrollbar-width: none;
 }
 
 h1 {
