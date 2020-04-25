@@ -211,22 +211,19 @@ li.active {
     z-index: 0;
 }
 
-div#About {
-    width: 80%;
+#content-section > div.active {
+    /* TODO add a way to hide element without taking space and animate it as well */
+    opacity: 1 !important;
+}
 
+#AboutDiv{
     display: grid;
     grid-template-columns: 18% 38% 38%;
     justify-content: space-evenly;
 
-    box-sizing: border-box;
-
-    padding: 2em;
-    margin: 0 10%;
-
-    flex-grow: 1;
 }
 
-div#About > img {
+#AboutDiv> img {
     border-radius: 50%;
 
     width: 70%;
@@ -237,6 +234,9 @@ div#About > img {
     /* margin-bottom: auto; */
 }
 
-div#About li {
+#AboutDiv li {
     font-family: Roboto;
+}
+
+#ContactDiv {
 }
