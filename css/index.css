@@ -164,7 +164,8 @@ body > div {
 
 .nav > li {
     font-family: Roboto;
-    font-size: 1.5em;
+    font-weight: 400;
+    font-size: 2em;
 
     display: inline;
 
