@@ -8,6 +8,8 @@ html, body {
     background: #3D67FF;
 
     scrollbar-width: none;
+
+    scroll-behavior: smooth;
 }
 
 h1 {
