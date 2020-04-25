@@ -148,6 +148,12 @@ body > div {
 
     box-shadow: inset 0px 4px 4px #00000040;
 
+    display: flex;
+    flex-flow: column;
+}
+
+#content-section *{
+    color: black;
 }
 
 .nav {
