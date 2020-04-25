@@ -160,6 +160,20 @@ body > div {
     color: black;
 }
 
+#content-section > div {
+    opacity: 0;
+    /* TODO add a way to hide element without taking space and animate it as well */
+
+    width: 80%;
+
+    box-sizing: border-box;
+
+    padding: 2em;
+    margin: 0 10%;
+
+    flex-grow: 1;
+}
+
 .nav {
     width: 100%;
 
