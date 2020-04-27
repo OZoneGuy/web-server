@@ -197,6 +197,24 @@ div[id$=Div] {
     box-sizing: border-box;
 
     position: absolute;
+
+    z-index: -1;
+}
+
+div[id$=Div].active {
+    opacity: 1 !important;
+
+    transition: opacity 0.5s;
+
+    z-index: 99;
+}
+
+div[id$=Div] a {
+    pointer-events: none;
+}
+
+div[id$=Div].active a {
+    pointer-events: initial;
 }
 
 .nav {
@@ -236,32 +254,45 @@ li.active {
     z-index: 0;
 }
 
-#content-section div.active {
-    /* TODO add a way to hide element without taking space and animate it as well */
-    display: block;
-    opacity: 1 !important;
-
-    transition: opacity 0.5s;
-}
-
-#AboutDiv {
-
-}
-
-#AboutDiv> img {
-    border-radius: 50%;
-
-    width: 70%;
-
-    margin-right: auto;
-    margin-left: auto;
-    /* margin-top: auto; */
-    /* margin-bottom: auto; */
+#AboutDiv > div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
 }
 
 #AboutDiv li {
     font-family: Roboto;
+    font-size: 1.3em;
+
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+#AboutDiv ul {
+    padding: 0;
 }
 
 #ContactDiv {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    justify-content: space-evenly;
+
+    padding: 0 auto;
+}
+
+#ContactDiv ul {
+    padding: 0;
+}
+
+#ContactDiv li{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.3em;
+
+    margin-top: 1em;
+
+    /* line-height: 2em; */
+
+    list-style-type: none;
 }
