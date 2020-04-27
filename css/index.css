@@ -185,38 +185,6 @@ body > div {
     margin-left: auto;
 }
 
-div[id$=Div] {
-    opacity: 0;
-
-    transition: opacity 0.2s;
-
-    width: 100%;
-
-    padding: 2em 0;
-
-    box-sizing: border-box;
-
-    position: absolute;
-
-    z-index: -1;
-}
-
-div[id$=Div].active {
-    opacity: 1 !important;
-
-    transition: opacity 0.5s;
-
-    z-index: 99;
-}
-
-div[id$=Div] a {
-    pointer-events: none;
-}
-
-div[id$=Div].active a {
-    pointer-events: initial;
-}
-
 .nav {
     width: 100%;
 
@@ -254,22 +222,53 @@ li.active {
     z-index: 0;
 }
 
-#AboutDiv > div {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
+div[id$=Div] {
+    opacity: 0;
+
+    transition: opacity 0.2s;
+
+    width: 100%;
+
+    padding: 2em 0;
+
+    box-sizing: border-box;
+
+    position: absolute;
+
+    z-index: -1;
 }
 
-#AboutDiv li {
+div[id$=Div].active {
+    opacity: 1 !important;
+
+    transition: opacity 0.5s;
+
+    z-index: 99;
+}
+
+div[id$=Div] a {
+    pointer-events: none;
+}
+
+div[id$=Div].active a {
+    pointer-events: initial;
+}
+
+div[id$=Div] li {
     font-family: Roboto;
     font-size: 1.3em;
 
     list-style-type: none;
-    list-style-position: outside;
 }
 
-#AboutDiv ul {
+div[id$=Div] ul {
     padding: 0;
+}
+
+#AboutDiv > div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
 }
 
 #ContactDiv {
@@ -281,18 +280,7 @@ li.active {
     padding: 0 auto;
 }
 
-#ContactDiv ul {
-    padding: 0;
-}
-
 #ContactDiv li{
-    font-family: Roboto;
     font-weight: 400;
-    font-size: 1.3em;
-
     margin-top: 1em;
-
-    /* line-height: 2em; */
-
-    list-style-type: none;
 }
