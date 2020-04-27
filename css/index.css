@@ -130,7 +130,7 @@ body > div {
     padding: 0;
 
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
 
     justify-content: space-evenly;
     grid-column-gap: 50px;
