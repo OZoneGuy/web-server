@@ -154,6 +154,8 @@ body > div {
 
     display: flex;
     flex-flow: column;
+
+    position: relative;
 }
 
 #content-section *{
@@ -161,17 +163,39 @@ body > div {
 }
 
 #content-section > div {
-    opacity: 0;
-    /* TODO add a way to hide element without taking space and animate it as well */
-
-    width: 80%;
-
-    box-sizing: border-box;
-
-    padding: 2em;
+    width: 80vw;
     margin: 0 10%;
 
     flex-grow: 1;
+
+    box-sizing: border-box;
+
+    display: grid !important;
+    grid-template-columns: 18% 38% 38%;
+    justify-content: space-evenly;
+}
+
+#content-section > div > img {
+    border-radius: 50%;
+
+    width: 70%;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div[id$=Div] {
+    opacity: 0;
+
+    transition: opacity 0.2s;
+
+    width: 100%;
+
+    padding: 2em 0;
+
+    box-sizing: border-box;
+
+    position: absolute;
 }
 
 .nav {
@@ -211,15 +235,15 @@ li.active {
     z-index: 0;
 }
 
-#content-section > div.active {
+#content-section div.active {
     /* TODO add a way to hide element without taking space and animate it as well */
+    display: block;
     opacity: 1 !important;
+
+    transition: opacity 0.5s;
 }
 
-#AboutDiv{
-    display: grid;
-    grid-template-columns: 18% 38% 38%;
-    justify-content: space-evenly;
+#AboutDiv {
 
 }
 
