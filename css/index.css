@@ -284,3 +284,13 @@ div[id$=Div] ul {
     font-weight: 400;
     margin-top: 1em;
 }
+
+#DocumentationDiv > ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+#DocumentationDiv li {
+    margin-bottom: 1em;
+}
