@@ -7,5 +7,5 @@ This website serves as my online portfolio and a way to maintain my documentatio
 * Documentation
   A collection of pages that document what I know about the relevant topics. Consider a blog that also serves as documentation and I expect no one to regularly check and read.
 
-  - [X] Make list as links
+  - [ ] Make list as links
   - [ ] Create base files for each documentation 'site'
