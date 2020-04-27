@@ -2,4 +2,10 @@
 #+author: Omar Alkersh
 #+options: toc:nil
 
-This repo contains the file of my personal website. This readme will be expanded as the website is expanded.
+This website serves as my online portfolio and a way to maintain my documentation.
+
+* Documentation
+  A collection of pages that document what I know about the relevant topics. Consider a blog that also serves as documentation and I expect no one to regularly check and read.
+
+  - TODO Make list as links
+  - TODO Create base files for each documentation 'site'
