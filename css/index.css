@@ -137,7 +137,7 @@ body > div {
 }
 
 /* TODO add max-width or a static width*/
-#project {
+.project {
     /* width: 18vw; */
 }
 
