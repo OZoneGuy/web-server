@@ -11,53 +11,53 @@
     <body>
         <div id="big-text">
             <h1>Greetings fellow thinkers,</br>and welcome to my base of operations!</h1>
-        </div>
-        <div id="projects-section">
-            <h2>Project and Highlights</h2>
-            <div id="projects-container">
-                <div class="project">
-                    <div class="project-heading">
-                        <h3>Discord GEEKS Bot</h3>
+            <div id="projects-section">
+                <h2>Project and Highlights</h2>
+                <div id="projects-container">
+                    <div class="project">
+                        <div class="project-heading">
+                            <h3>Discord GEEKS Bot</h3>
+                        </div>
+                        <div class="project-body">
+                            <h5>(Python, SQLite) <a target="_blank" href="https://github.com/O-Zone-Guy/Discord-GEEKS-Bot">GitHub</a> </h5>
+                            <p>A Discord bot that is responsible for memeber sign up and community tags.</p>
+                        </div>
                     </div>
-                    <div class="project-body">
-                        <h5>(Python, SQLite) <a target="_blank" href="https://github.com/O-Zone-Guy/Discord-GEEKS-Bot">GitHub</a> </h5>
-                        <p>A Discord bot that is responsible for memeber sign up and community tags.</p>
+                    <div class="project">
+                        <div class="project-heading">
+                            <h3>Timetable Android App</h3>
+                        </div>
+                        <div class="project-body">
+                            <h5>(Java, MySQL, Android) <a target="_blank" href="https://github.com/O-Zone-Guy/time-table-app">GitHub</a> </h5>
+                            <p>An android application to keep track of my timetable and send a notification for the next class.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="project">
-                    <div class="project-heading">
-                        <h3>Timetable Android App</h3>
+                    <div class="project">
+                        <div class="project-heading">
+                            <h3>Shop Database(Abandoned)</h3>
+                        </div>
+                        <div class="project-body">
+                            <h5>(C++, Qt) <a target="_blank" href="https://github.com/O-Zone-Guy/shop-database-and-auditing">GitHub</a></h5>
+                            <p>A program to keep track of the inventory of a shop with search, sell, and buy fucntions.</p>
+                        </div>
                     </div>
-                    <div class="project-body">
-                        <h5>(Java, MySQL, Android) <a target="_blank" href="https://github.com/O-Zone-Guy/time-table-app">GitHub</a> </h5>
-                        <p>An android application to keep track of my timetable and send a notification for the next class.</p>
+                    <div class="project">
+                        <div class="project-heading">
+                            <h3>Discord Dad Bot</h3>
+                        </div>
+                        <div class="project-body">
+                            <h5>(python) <a target="_blank" href="https://github.com/O-Zone-Guy/Discord-Dad-Bot">GitHub</a></h5>
+                            <p>A discord bot that retrieves dad jokes from reddit and sends them to some discord channel.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="project">
-                    <div class="project-heading">
-                        <h3>Shop Database(Abandoned)</h3>
-                    </div>
-                    <div class="project-body">
-                        <h5>(C++, Qt) <a target="_blank" href="https://github.com/O-Zone-Guy/shop-database-and-auditing">GitHub</a></h5>
-                        <p>A program to keep track of the inventory of a shop with search, sell, and buy fucntions.</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="project-heading">
-                        <h3>Discord Dad Bot</h3>
-                    </div>
-                    <div class="project-body">
-                        <h5>(python) <a target="_blank" href="https://github.com/O-Zone-Guy/Discord-Dad-Bot">GitHub</a></h5>
-                        <p>A discord bot that retrieves dad jokes from reddit and sends them to some discord channel.</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="project-heading">
-                        <h3>Godot Game</h3>
-                    </div>
-                    <div class="project-body">
-                        <h5>(GScript, Godot) <span style="font-style: italic;">Files are lost</span></h5>
-                        <p>Exploring game development through the Godot Game engine.</p>
+                    <div class="project">
+                        <div class="project-heading">
+                            <h3>Godot Game</h3>
+                        </div>
+                        <div class="project-body">
+                            <h5>(GScript, Godot) <span style="font-style: italic;">Files are lost</span></h5>
+                            <p>Exploring game development through the Godot Game engine.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,9 +65,9 @@
         <div id="content-section">
             <ul class="nav">
                 <li id="Home" onclick="window.scroll(0,0);">Home</li>
-                <li id="Documentation" onclick="showSection('Documentation')">Documentation</li>
-                <li class="active" onclick="showSection('About')" id="About">About</li>
-                <li id="Contact" onclick="showSection('Contact')">Contact</li>
+                <li id="Documentation" onclick="showSection('Documentation');location.href='#DocumentationDiv'">Documentation</li>
+                <li class="active" onclick="showSection('About');location.href='#AboutDiv'" id="About">About</li>
+                <li id="Contact" onclick="showSection('Contact');location.href='#ContactDiv'">Contact</li>
             </ul>
             <hr style="width:80vw;margin-top:0">
             <div>
@@ -75,7 +75,7 @@
                 <div><h2>Omar Alkersh</h2>
                     <p style="font-size: 1.3em">I am an undergrad Computer Science student at McMaster University.<br>My interests in computing vary from game development to intelligent system design.<br>This is enabled by my ability to lead and work with diverse group in new and familiar situations to achieve optimal results while improving upon any legacy method. To me, nothing <q>will just do</q>. For if it is not done properly now, when will it?</p>
                 </div>
-                <div style="position: relative;">
+                <div style="position: relative;overflow-y: hidden;">
                     <div id="AboutDiv" class="active">
                         <h3>Skills</h3>
                         <div>
