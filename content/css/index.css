@@ -333,7 +333,6 @@ div[id$=Div] ul {
 
     #big-text > h1 {
         margin: 20% 0;
-        scroll-snap-align: start;
     }
 
     #projects-section {
