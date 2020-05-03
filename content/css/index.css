@@ -415,11 +415,6 @@ div[id$=Div] ul {
     }
 
     #ContactDiv {
-        /* display: grid; */
-        /* grid-template-columns: auto auto; */
-
-        /* justify-content: space-evenly; */
-
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
