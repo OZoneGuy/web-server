@@ -16,3 +16,16 @@ function showSection(name){
     document.getElementById(name + "Div").classList.add("active");
 
 }
+
+
+function addClickForProjectHead() {
+    var els = document.getElementsByClassName("project-heading");
+
+    for (var i = 0; i < els.length; i++){
+        els[i].addEventListener('click',
+                                (e) => {e.currentTarget.nextElementSibling.classList.toggle("active");});
+    }
+}
+
+
+window.onload = addClickForProjectHead;
