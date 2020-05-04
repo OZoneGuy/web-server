@@ -437,6 +437,12 @@ div[id$=Div] ul {
         justify-content: center;
     }
 
+    #AboutDiv ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+
     #ContactDiv {
         display: flex;
         flex-direction: column-reverse;
