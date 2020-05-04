@@ -302,7 +302,7 @@ div[id$=Div] ul {
 
 @media only screen and (max-width: 1290px){
     html, body {
-        scroll-snap-type: y proximity;
+        scroll-snap-type: none;
     }
 
     h1 {
