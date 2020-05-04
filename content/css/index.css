@@ -383,8 +383,6 @@ div[id$=Div] ul {
 
     #content-section {
         height: auto;
-
-        /* overflow-y: scroll; */
     }
 
     #content-section > div {
