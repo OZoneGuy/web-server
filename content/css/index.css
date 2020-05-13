@@ -146,6 +146,10 @@ body > div {
     /* width: 18vw; */
 }
 
+.project-heading i {
+    display: none !important;
+}
+
 #content-section {
     height: 60vh;
 
@@ -359,6 +363,10 @@ div[id$=Div] ul {
 
     .project-heading {
         padding: 0 2em;
+    }
+
+    .project-heading  i {
+        display: initial !important;
     }
 
     .project-body {
