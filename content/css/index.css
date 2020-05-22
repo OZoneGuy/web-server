@@ -280,6 +280,18 @@ div[id$=Div] ul {
     justify-content: space-between;
 }
 
+/*Base for expertise level indication, similar to twenty cv template.*/
+/* Don't like how it looks */
+/* .skill { */
+/*     /\* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+22,e5e5e5+22 *\/ */
+/*     background: rgb(61,103,255); /\* Old browsers *\/ */
+/*     background: -moz-linear-gradient(left, rgb(61,103,255) var(--exp), #00000000 var(--exp)); /\* FF3.6-15 *\/ */
+/*     background: -webkit-linear-gradient(left, rgb(61,103,255) var(--exp),#00000000 var(--exp)); /\* Chrome10-25,Safari5.1-6 *\/ */
+/*     background: linear-gradient(to right, rgb(61,103,255) var(--exp),#00000000 var(--exp)); /\* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *\/ */
+
+/*     box-shadow: inset 0px 0px 8px #00000040; */
+/* } */
+
 #ContactDiv {
     display: grid;
     grid-template-columns: auto auto;
