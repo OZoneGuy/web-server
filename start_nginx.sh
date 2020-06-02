@@ -12,6 +12,6 @@ if [ ! "`docker ps -aq -f name=nginx`" ]; then
            --mount type=bind,source="$1"/config,target=/etc/nginx,readonly \
            -p 80:80 -d \
            nginx
-elif [ "`docker inspect -f '{{.state.Running}}' nginx`" != 'true' ]; then
+elif [ "`docker inspect -f '{{.State.Running}}' nginx`" != 'true' ]; then
     docker start nginx
 fi
